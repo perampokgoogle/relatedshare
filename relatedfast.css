@@ -1,0 +1,109 @@
+#related-posts {
+margin-bottom: 10px;
+padding: 10px 0;
+}
+.related li {
+width: 31.276%;
+display: inline-block;
+height: auto;
+min-height: 184px;
+float: left;
+margin-right: 18px;
+overflow: hidden;
+position: relative;
+}
+.related li h3 {
+margin-top:0;
+}
+.related-thumb {
+width: 100%;
+height: 180px;
+overflow: hidden;
+border-radius: 2px;
+}
+.related li .related-img {
+width: 100%;
+height: 180px;
+display: block;
+position: relative;
+transition: all .3s ease-out!important;
+-webkit-transition: all .3s ease-out!important;
+-moz-transition: all .3s ease-out!important;
+-o-transition: all .3s ease-out!important;
+}
+.related li .related-img:hover {
+-webkit-transform: scale(1.1) rotate(-1.5deg)!important;
+-moz-transform: scale(1.1) rotate(-1.5deg)!important;
+transform: scale(1.1) rotate(-1.5deg)!important;
+transition: all .3s ease-out!important;
+-webkit-transition: all .3s ease-out!important;
+-moz-transition: all .3s ease-out!important;
+-o-transition: all .3s ease-out!important;
+}
+.related-title a {
+font-size: 14px;
+line-height: 1.4em;
+padding: 10px 0 4px;
+font-weight: 500;
+color: #fff;
+display: block;
+text-shadow: 0 .5px .5px rgba(34,34,34,0.3);
+}
+.related li:nth-of-type(3),
+.related li:nth-of-type(6),
+.related li:nth-of-type(9) {
+margin-right: 0;
+}
+.related .related-tag {
+position: absolute;
+top: 15px;
+left: 15px;
+background-color: #f1a18e;
+color: #fff;
+text-transform: uppercase;
+font-weight: 400;
+z-index: 5;
+height: 20px;
+line-height: 20px;
+padding: 0 6px;
+font-size: 11px;
+}
+.related .related-thumb .related-img:after {
+content: no-close-quote;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 120px;
+background: url(http://3.bp.blogspot.com/-LnvazGBvKh8/VskckSkmzxI/AAAAAAAAC4s/erEgI6A_ih4/s1600-r/metabg.png) repeat-x;
+background-size: 100% 100%;
+opacity: .8;
+}
+.related-overlay {
+position: absolute;
+left: 0;
+top: 0;
+z-index: 1;
+width: 100%;
+height: 100%;
+background-color: rgba(40,35,40,0.05);
+}
+.related-content {
+position: absolute;
+bottom: 0;
+padding: 15px 15px 11px;
+width: 100%;
+line-height: 1.2em;
+box-sizing: border-box;
+z-index: 2;
+}
+.related .related-content .recent-date {
+color: #ccc;
+font-size: 12px;
+font-weight: 400;
+}
+.recent-date:before, .p-date:before {
+content: '\f017';
+font-family: fontawesome;
+margin-right: 5px;
+}
